@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>J3ee : Java Application Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="keywords" content="Web Framework, Dependency Injection"/>
+
+    <link href="assets/icon.png" rel="icon" type="image/png" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <h1>J3ee</h1>
+        <p>Modern Java web development. It is a
+            spin on the old J2ee acronym that Microsoft quietly
+            marginalized! J2ee is beautiful.</p>
+
+        <h2 id="qio-identity">//| <span id="qio" style="text-shadow: none;">Q</span><span id="io" style="text-shadow: none;">io</span> &Delta;&deg;&not;</h2>
+<!--        <h2><span id="qio">Q</span><span id="io">io</span></h2>-->
+
+        <p>Qio is a web framework built for both the Java EE and Jakarta EE specifications.
+            <a href="http://qioframework.io">www.qioframework.io</a></p>
+
+        <p>Add the latest Qio to your pom.xml:</p>
+
+        <pre>
+            <code>
+&lt;dependency&gt;
+    &lt;groupId&gt;dev.j3ee&lt;/groupId&gt;
+    &lt;artifactId&gt;qio&lt;/artifactId&gt;
+    &lt;version&gt;1.11&lt;/version&gt;
+&lt;/dependency&gt;</code>
+        </pre>
+
+        <p>Then configure via : <strong>src/main/resources/qio.props</strong> settings file.</p>
+        <pre>
+            <code>
+qio.dev=false
+qio.assets=assets,media
+qio.properties=this</code>
+        </pre>
+
+        <p>... and you're ready to go.</p>
+
+
+        <h3 style="position: relative;height:60px;">
+            <span style="position:absolute;left:52px;">Chico</span>
+            <img src="https://static.thenounproject.com/png/6246-200.png" width="39px"
+                 style="position:absolute;left:0px; top:-12px;"/>
+        </h3>
+        <p>Chico is a security plugin built for Jakarta EE based projects. It is free
+        to download and the latest version can be found on either github
+            or <a href="http://www.mavenrepository.com" target="_blank">mavenrepository.com</a></p>
+        <pre>
+            <code>
+&lt;dependency&gt;
+    &lt;groupId&gt;dev.j3ee&lt;/groupId&gt;
+    &lt;artifactId&gt;chico&lt;/artifactId&gt;
+    &lt;version&gt;0.1&lt;/version&gt;
+&lt;/dependency&gt;</code>
+        </pre>
+
+        <p>Chico is based off of
+            <a href="http://www.github.com/mcroteau/Parakeet" target="_blank">Parakeet</a>.
+            Parakeet is 9 versions deep so it is a pretty stable security plugin. Don't
+            let the version number throw you off.
+        </p>
+
+
+        <h3 style="position: relative">Papi
+            <img src="https://camo.githubusercontent.com/5813e49f6f12993480c9edd29e790308e324ffbe2af3608f395a1f975e0617d0/68747470733a2f2f706e672e706e67747265652e636f6d2f656c656d656e745f6f75722f32303230303633302f6f75726c617267652f706e67747265652d6f6c642d6d616e2d766563746f722d69636f6e2d6d6174657269616c2d696d6167655f323237353437342e6a7067" width="64px" style="position:absolute;left:107px;top:-25px;"/></h3>
+        <p>The latest version can be found here :
+            <a href="https://github.com/mcroteau/Papi">https://github.com/mcroteau/Papi</a>.
+            Papi is a one class pooled datasource. It is super simple and easy to
+            implement. A million times faster than a basic datasource, but not as fast
+            as the other guys... "come on Papi, you can do it...".
+        </p>
+
+
+    </div>
+</body>
+</html>
+
